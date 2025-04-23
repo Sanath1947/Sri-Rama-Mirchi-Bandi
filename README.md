@@ -1,6 +1,6 @@
-# Sri Ram Mirchi Bandi - Telangana Street Food Web Application
+# Sri-Rama-Mirchi-Bandi - Telangana Street Food Web Application
 
-A modern web application for Sri Ram Mirchi Bandi, a beloved street food vendor in Hanamkonda, Warangal District, Telangana, India. The application features immersive 3D food visualizations, online ordering, and delivery capabilities.
+A modern web application for Sri-Rama-Mirchi-Bandi, a beloved street food vendor in Hanamkonda, Warangal District, Telangana, India. The application features immersive 3D food visualizations, online ordering, and delivery capabilities.
 
 ## Features
 
