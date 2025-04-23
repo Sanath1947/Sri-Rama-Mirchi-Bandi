@@ -34,7 +34,7 @@ A modern web application for Sri Ram Mirchi Bandi, a beloved street food vendor 
 ## Project Structure
 
 ```
-/srirammirchibandi
+/sri-rama-mirchi-bandi
 ├── /frontend
 │   ├── /src
 │   │   ├── /components
@@ -64,8 +64,8 @@ A modern web application for Sri Ram Mirchi Bandi, a beloved street food vendor 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/srirammirchibandi.git
-cd srirammirchibandi
+git clone https://github.com/yourusername/sri-rama-mirchi-bandi.git
+cd sri-rama-mirchi-bandi
 ```
 
 2. Install dependencies:
@@ -85,7 +85,19 @@ npm install
 # See .env.example for required variables
 ```
 
-4. Start development servers:
+4. Database Setup:
+```sql
+-- Create the database
+CREATE DATABASE "sri-rama-mirchi-bandi";
+
+-- Create a new user
+CREATE USER sriram_user WITH PASSWORD 'your_secure_password';
+
+-- Grant privileges
+GRANT ALL PRIVILEGES ON DATABASE "sri-rama-mirchi-bandi" TO sriram_user;
+```
+
+5. Start development servers:
 ```bash
 # Frontend
 cd frontend
