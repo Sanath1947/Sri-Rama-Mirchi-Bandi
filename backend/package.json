@@ -1,5 +1,5 @@
 {
-  "name": "srirammirchibandi-backend",
+  "name": "sri-rama-mirchi-bandi-backend",
   "version": "1.0.0",
   "description": "Backend for Sri Ram Mirchi Bandi web application",
   "main": "server.js",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.0.2"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 } 
