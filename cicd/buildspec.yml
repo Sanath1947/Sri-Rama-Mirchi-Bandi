@@ -21,6 +21,10 @@ phases:
       - cd ../backend
       - npm run test
 
+  post_build:
+    commands:
+      - aws s3 sync build/ s3://sri-rama-mirchi-bandi-assets-dev/ --delete
+
 artifacts:
   files:
     - '**/*'
